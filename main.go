@@ -45,6 +45,7 @@ func main() {
 	}
 }
 
+// Functions from sprig + lookup function from helm
 func funcMap() template.FuncMap {
 	fmap := sprig.TxtFuncMap()
 
